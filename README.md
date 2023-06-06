@@ -1,7 +1,7 @@
-cmattoon/dir2cm
+kLeZ/dir2cm
 ===============
 
-[![Build Status](https://travis-ci.org/cmattoon/dir2cm.svg?branch=master)](https://travis-ci.org/cmattoon/dir2cm)
+[![Build Status](https://travis-ci.org/kLeZ/dir2cm.svg?branch=master)](https://travis-ci.org/kLeZ/dir2cm)
 
 Creates a Kubernetes `ConfigMap` from a directory. Due to limitations with `ConfigMap`,
 only files (not directories) in the first-level directory are processed.
@@ -40,7 +40,7 @@ Docker
 
 Given the setup above, the command
 
-    docker run --rm -v "$(pwd)/configfiles:/data" cmattoon/dir2cm -name foobar
+    docker run --rm -v "$(pwd)/configfiles:/data" kLeZ/dir2cm -name foobar
 
 Should dump the following to stdout:
 

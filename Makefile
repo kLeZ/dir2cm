@@ -9,7 +9,7 @@ build:
 	go build
 
 container:
-	docker build -t cmattoon/dir2cm:latest .
+	docker build -t kLeZ/dir2cm:latest .
 
 test: build
 	mkdir -p configfiles

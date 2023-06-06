@@ -1,4 +1,4 @@
-module github.com/cmattoon/dir2cm
+module github.com/kLeZ/dir2cm
 
 go 1.20
 
